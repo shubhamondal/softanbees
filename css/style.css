@@ -1411,7 +1411,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #18d26e;
+  background: #18d26e!important;
   color: #fff;
 }
 
@@ -1585,4 +1585,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   #mobile-nav-toggle {
     display: inline;
   }
+}
+
+.twitter{
+  background-color: #4da7de!important;
+}
+.facebook{
+  background-color: #3e5b98!important;
+}
+.instagram{
+  background-color: #b83390!important;
+}
+.google-plus{
+  background-color: #dd5144!important;
+}
+.linkedin{
+  background-color: #3371b7!important;
 }
