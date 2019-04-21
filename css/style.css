@@ -677,6 +677,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-col .img img {
   border-radius: 4px 4px 0 0;
+      height: 250px;
 }
 
 #about .about-col .icon {
@@ -1607,4 +1608,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .linkedin{
   background-color: #3371b7!important;
+}
+.text_center_our{
+   display: table!important;
+  margin: auto!important;
 }
