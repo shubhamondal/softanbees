@@ -114,8 +114,8 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {    
-    background: #fff;
-    /* background: linear-gradient(to right, #4feef680, #c471ed, #12c2e9); */
+    /* background: #fff; */
+    background: linear-gradient(to right, #4feef680, #c471ed, #12c2e9);
     padding: 20px 0;
     height: 72px;
     transition: all 0.5s;
