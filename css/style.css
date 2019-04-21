@@ -114,7 +114,8 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {    
-    background: rgba(0, 0, 0, 0.9);
+    /* background: #fff; */
+    background: linear-gradient(to right, #4feef680, #c471ed, #12c2e9);
     padding: 20px 0;
     height: 72px;
     transition: all 0.5s;
@@ -151,9 +152,9 @@ h6 {
 
 #header #logo h1 a,
 #header #logo h1 a:hover {
-  color: #fff;
+  color: #000;
   padding-left: 10px;
-  border-left: 4px solid #18d26e;
+  /* border-left: 4px solid #18d26e; */
 }
 
 #header #logo img {
@@ -231,6 +232,7 @@ h6 {
   width: 80%;
   margin: 0 auto 30px auto;
   color: #fff;
+  font-weight: 600;
 }
 
 #intro .carousel-fade {
@@ -374,7 +376,7 @@ h6 {
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: #000;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -384,7 +386,8 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
-  color: #18d26e;
+  /* color: #18d26e; */
+  color: #39ff95;
 }
 
 .nav-menu > li {
@@ -581,6 +584,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   /* padding-bottom: 30px; */
   color: #333;
+      font-weight: 500;
+    font-family: cursive;
 }
 
 /* Section with background
@@ -886,6 +891,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #111;
+  font-weight: 600;
 }
 
 #facts .facts-img {
