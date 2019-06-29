@@ -213,6 +213,14 @@
     loop: true,
     items: 1
   });
-
+  $('#options li').hover(
+    function () {
+      //console.log('hover over');
+      $(this).find('ul').slideDown();
+    },
+    function () {
+      //console.log('hover out');
+      $(this).find('ul').slideUp();
+    });  
 })(jQuery);
 

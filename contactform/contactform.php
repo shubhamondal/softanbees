@@ -1,20 +1,11 @@
 <?php
-         $to = "shubha.mondal@medibuddy.in";
-         $subject = "This is subject";
-         
-         $message = "<b>This is HTML message.</b>";
-         $message .= "<h1>This is headline.</h1>";
-         
-         $header = "From:mondal.shubha@gmail.com\r\n";
-         $header .= "Cc:afgh@somedomain.com \r\n";
-         $header .= "MIME-Version: 1.0\r\n";
-         $header .= "Content-type: text/html\r\n";
-         
-         $retval = mail ($to,$subject,$message,$header);
-         
-         if( $retval == true ) {
-            echo "Message sent successfully...";
-         }else {
-            echo "Message could not be sent...";
-         }
-      ?>
+ini_set( 'display_errors', 1 );
+error_reporting( E_ALL );
+$from = "mondal.shubha@gmail.com";
+$to = "shubha.mondal@medibuddy.in";
+$subject = $_POST['subject'];
+$message = $_POST['message'];
+$headers = "From:" . $from;
+mail($to,$subject,$message, $headers);
+echo "The email message was sent.";
+?>

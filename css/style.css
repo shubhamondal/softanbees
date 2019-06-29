@@ -1615,3 +1615,14 @@ body.mobile-nav-active #mobile-nav-toggle {
    display: table!important;
   margin: auto!important;
 }
+#options li ul{
+  display: none;
+}
+#options li{
+      font-family: cursive;
+    font-weight: 700;
+    color: #636FA4;
+}
+#options li ul li{
+  color: #44A08D;
+}

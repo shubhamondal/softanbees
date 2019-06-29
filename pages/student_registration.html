@@ -74,9 +74,9 @@
     ============================-->
         <section id="call-to-action" class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
             <div class="container text-center">
-                <h3>Call To Action</h3>
+                <h3>Register Yourself</h3>
                 <p>Give us more details and we get back to you with a tailored offer</p>
-                <a class="cta-btn" href="#">Get a Quote link</a>
+                <!--<a class="cta-btn" href="#">Get a Quote link</a>-->
             </div>
         </section>
         <!--==========================
@@ -87,7 +87,8 @@
 
                 <div class="section-header">
                     <h3>Contact Us</h3>
-                    <p>If you want to know more about our products, features, pricing or anything at all, we are here to answer your questions.</p>
+                    <p>If you want to know more about our products, features, pricing or anything at all, we are here to
+                        answer your questions.</p>
                 </div>
 
                 <div class="row contact-info">
@@ -120,7 +121,7 @@
                 </div>
 
                 <div class="form">
-                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="sendmessage">Your registration has been done. Thank you!</div>
                     <div id="errormessage"></div>
                     <form action="" method="post" role="form" class="contactForm">
                         <div class="form-row">
@@ -135,15 +136,31 @@
                                 <div class="validation"></div>
                             </div>
                         </div>
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                            <div class="validation"></div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" name="collage" class="form-control" id="collage"
+                                    placeholder="Collage Name" data-rule="minlen:4"
+                                    data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="coursename" id="coursename"
+                                    placeholder="Course Name" data-rule="minlen:4" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
+                            </div>
                         </div>
-						<div class="form-group col-md-6">
-                            <input type="tel" class="form-control" name="contactno" id="contactno" placeholder="Contact no"
-                                data-rule="minlen:10" data-msg="Please enter at least 10 digits of numbers" />
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" name="mobileno" id="mobileno" placeholder="Mobile No" data-rule="minlen:10"
+                                    data-msg="Please enter at least 10 chars of subject" />
+                                <div class="validation"></div>
+                            </div>
+                            <div class="form-group col-md-6">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
+                                data-msg="Please enter at least 8 chars of subject" />
                             <div class="validation"></div>
+                            </div>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" name="message" id="message" rows="5" data-rule="required"
