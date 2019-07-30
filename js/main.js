@@ -9,7 +9,7 @@
       });
     }
     //Dynamic carousel load
-    var jqxhr = $.getJSON("http://softanbees.com/DynamicCorossolLoad.json", function () {
+    var jqxhr = $.getJSON("../DynamicCorossolLoad.json", function () {
       if(jqxhr.responseJSON.length>0)
       {
         $(".carousel-item").each(function (index) {
@@ -213,7 +213,8 @@
     loop: true,
     items: 1
   });
-  $('#options li').hover(
+  
+    $('#options li').hover(
     function () {
       //console.log('hover over');
       $(this).find('ul').slideDown();
@@ -222,5 +223,6 @@
       //console.log('hover out');
       $(this).find('ul').slideUp();
     });  
+
 })(jQuery);
 

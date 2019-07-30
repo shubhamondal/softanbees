@@ -10,7 +10,7 @@ $htmlContent = '
         <title>softanbees enquiry</title>
     </head>
     <body>
-        <h1>Hi team, We have got enquiry from website</h1>
+        <h1>Hi team, We have got one student registration</h1>
         <h3>Please take this on priority</h3>
         <table cellspacing="0" style="border: 2px solid #000; width: 100%; height: 50%;">
             <tr>
@@ -45,8 +45,8 @@ if(mail($to,$subject,$htmlContent, $headers)) {
         // Your browser message to them
         $feedback = 'your information has been successfully Send it';
         $headerRep  = "From: softanbees.com <contact@softanbees.com>";
-        $subjectRep =   "softanbees contact response";
-        $messageRep =   "Hi ". strip_tags($_POST['name']) .", \r\nWe have received your message, will get back to you very sortly. \r\n \r\n Thanks & Regards\r\n Team softanbees";
+        $subjectRep =   "softanbees registration response";
+        $messageRep =   "Hi ". strip_tags($_POST['name']) .", \r\nYou have been registered successfully,our team will get back to you very sortly. \r\n \r\n Thanks & Regards\r\n Team softanbees";
         mail($from, $subjectRep, $messageRep, $headerRep);
     }
 

@@ -1,0 +1,4 @@
+[27-Apr-2019 19:05:49 Europe/London] PHP Notice:  Undefined index: subject in /home/softanbe/public_html/contactform/contactform.php on line 6
+[27-Apr-2019 19:05:49 Europe/London] PHP Notice:  Undefined index: message in /home/softanbe/public_html/contactform/contactform.php on line 7
+[27-Apr-2019 19:19:51 Europe/London] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/softanbe/public_html/contactform/contactform.php on line 13
+[28-Apr-2019 17:24:16 Europe/London] PHP Fatal error:  Call to undefined function filter_vars() in /home/softanbe/public_html/contactform/contactform.php on line 35
